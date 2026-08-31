@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact PROMAN - Get in touch for project management solutions, demos, and support.">
+  <title>Contact Us | PROMAN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="assets/img/logo.svg" alt="PROMAN Logo">
+      </a>
+      <nav class="nav" id="mainNav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="features.html" class="nav-link">Features</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+        <a href="contact.html" class="nav-cta">Get Started</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== CONTACT HERO ========== -->
+  <section class="contact-hero">
+    <div class="container">
+      <h1>Get in <span class="text-gradient">Touch</span></h1>
+      <p>Have a question or ready to start? We'd love to hear from you. Our team is here to help you succeed.</p>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT FORM ========== -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-form fade-in">
+          <h3>Send Us a Message</h3>
+          <p style="margin-bottom: var(--space-8);">Fill out the form below and we'll get back to you within 24 hours.</p>
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="John" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Doe" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@company.com" required>
+            </div>
+            <div class="form-group">
+              <label for="company">Company Name</label>
+              <input type="text" id="company" name="company" placeholder="Your Company">
+            </div>
+            <div class="form-group">
+              <label for="service">Service Interested In</label>
+              <select id="service" name="service">
+                <option value="">Select a service</option>
+                <option value="planning">Strategic Planning</option>
+                <option value="execution">Seamless Execution</option>
+                <option value="delivery">On-Time Delivery</option>
+                <option value="consulting">Project Consulting</option>
+                <option value="enterprise">Enterprise Solution</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" placeholder="Tell us about your project and how we can help..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Send Message</button>
+          </form>
+        </div>
+        <div class="contact-info fade-in">
+          <h3>Contact Information</h3>
+          <p style="margin-bottom: var(--space-8);">Reach out directly or visit us. We're always happy to chat about your projects.</p>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <span>&#9993;</span>
+            </div>
+            <div>
+              <h4>Email Us</h4>
+              <p>hello@proman.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <span>&#9742;</span>
+            </div>
+            <div>
+              <h4>Call Us</h4>
+              <p>+1 (555) 123-4567</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <span>&#9873;</span>
+            </div>
+            <div>
+              <h4>Visit Us</h4>
+              <p>123 Innovation Drive<br>San Francisco, CA 94102</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <span>&#128337;</span>
+            </div>
+            <div>
+              <h4>Office Hours</h4>
+              <p>Monday - Friday: 9:00 AM - 6:00 PM PST</p>
+            </div>
+          </div>
+          <div style="margin-top: var(--space-8); padding: var(--space-6); background: var(--gray-50); border-radius: var(--radius-lg);">
+            <h4 style="margin-bottom: var(--space-2);">Prefer a quick form?</h4>
+            <p style="font-size: var(--text-sm); margin-bottom: var(--space-3);">Use our lightweight intake form for faster response.</p>
+            <a href="https://tally.so/r/q4q1L9" target="_blank" rel="noopener noreferrer" class="btn btn-green btn-sm">Open Quick Form &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MAP PLACEHOLDER ========== -->
+  <section style="background: var(--gray-50); padding: var(--space-16) 0;">
+    <div class="container">
+      <div style="background: var(--navy); border-radius: var(--radius-xl); padding: var(--space-16); text-align: center;">
+        <img src="assets/img/contact-illustration.svg" alt="Office Location" style="max-width: 600px; margin: 0 auto; border-radius: var(--radius-lg);">
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FAQ ========== -->
+  <section class="section">
+    <div class="container">
+      <div style="text-align: center; margin-bottom: var(--space-12);">
+        <span class="feature-tag">FAQ</span>
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="grid grid-2" style="gap: var(--space-8);">
+        <div class="card fade-in">
+          <h4>How quickly can you start on my project?</h4>
+          <p style="margin-bottom: 0;">We typically begin within 48 hours of contract signing. For urgent projects, we offer expedited onboarding.</p>
+        </div>
+        <div class="card fade-in">
+          <h4>Do you offer free consultations?</h4>
+          <p style="margin-bottom: 0;">Yes! We offer a free 30-minute consultation to discuss your project needs and how PROMAN can help.</p>
+        </div>
+        <div class="card fade-in">
+          <h4>What industries do you serve?</h4>
+          <p style="margin-bottom: 0;">We work across technology, construction, healthcare, finance, and many other industries. Our methods are adaptable to any sector.</p>
+        </div>
+        <div class="card fade-in">
+          <h4>Can I change plans after signing up?</h4>
+          <p style="margin-bottom: 0;">Absolutely. You can upgrade or downgrade your plan at any time. Changes take effect at the start of your next billing cycle.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <img src="assets/img/logo.svg" alt="PROMAN Logo" style="height: 36px;">
+          </a>
+          <p>Professional project management solutions for teams that deliver. On time. On budget. Every time.</p>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">Strategic Planning</a></li>
+            <li><a href="services.html">Execution</a></li>
+            <li><a href="services.html">Delivery</a></li>
+            <li><a href="services.html">Consulting</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <ul class="footer-links">
+            <li><a href="contact.html">Help Center</a></li>
+            <li><a href="contact.html">Documentation</a></li>
+            <li><a href="contact.html">API Reference</a></li>
+            <li><a href="contact.html">Status</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 PROMAN. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Twitter">X</a>
+          <a href="#" aria-label="GitHub">GH</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
